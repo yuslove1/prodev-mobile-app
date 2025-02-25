@@ -26,11 +26,12 @@ export const styles = StyleSheet.create({
   },
   searchFormText: {
     fontSize: 16,
-    color: 'rgb(62 63 63)', 
+    color: 'rgb(62 63 63)',
   },
   searchControl: {
     borderWidth: 0,
     paddingVertical: 8,
+    color: 'rgb(189 190 190)',
   },
   searchButton: {
     backgroundColor: '#FFA500',

@@ -1,12 +1,12 @@
 import { AntDesign, EvilIcons, Feather, FontAwesome, Ionicons } from "@expo/vector-icons";
-import '../../global.css';
 import { Tabs } from "expo-router";
+// import "@/styles/global.css";
 
 const HomeRootLayout = () => {
     return (
         <Tabs screenOptions={{
             tabBarActiveTintColor: '#34967C',
-            headerShown: false
+            headerShown: false,
         }} >
             <Tabs.Screen name="index" options={{
                 title: 'Home',
@@ -29,7 +29,7 @@ const HomeRootLayout = () => {
             }}/>
             <Tabs.Screen name="profile" options={{
                 title: 'Profile',
-                headerShown: true,
+                // headerShown: true,
                 tabBarIcon: ({ color }) => <FontAwesome name="user-o" size={24} color="black" />,
             }}/>
         </Tabs>
